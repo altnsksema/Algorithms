@@ -1,0 +1,22 @@
+package BubbleSort;
+//Kendi başıma yazdığım kod.
+
+public class Kabarcik {
+    public static void main(String[] args) {
+        int i, j = 0;
+        int n = 0;
+        int a[] = {0, 1, 2, 3, 6, 5, 7, 4, 9, 10, 8};
+        int empty;
+        System.out.println("Sıralanmamış dizi: " + a[10]);
+        for (i = 0; i < n - 1; i++){
+            for(j = 0; j < n - 1 - i; j++){
+                if(a[j+1] < a[j]){
+                    empty = a[j];
+                    a[j] = a[j+1];
+                    a[j+1] = empty;
+                }
+            }
+        }
+        System.out.println("Sıralanmış dizi: " + a[j+1]);
+    }
+}
