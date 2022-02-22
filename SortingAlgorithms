@@ -20,5 +20,3 @@ public class Kabarcik {
         System.out.println("Sıralanmış dizi: " + a[j+1]);
     }
 }
-
-
